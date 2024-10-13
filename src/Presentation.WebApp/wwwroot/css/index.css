@@ -1,0 +1,110 @@
+body
+    {
+        background-color: #ffe7b0;
+    }
+.boton-detalles 
+    {
+        border-radius: 12px;
+        background-color: #785bfc;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+.boton-detalles:hover
+    {
+        background-color: #6545f4;
+
+    }
+
+
+.boton-editar 
+    {
+        border-radius: 12px;
+        background-color: #4ba7fd;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+.boton-editar:hover
+    {
+        background-color: #379cfa;
+
+    }
+
+.boton-eliminar 
+    {
+        border-radius: 12px;
+        background-color: transparent;
+        color: rgb(253, 52, 52);
+        border: 2px, solid;
+        border-color:rgb(253, 52, 52);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+.boton-eliminar:hover
+    {
+        border-color:rgb(216, 11, 11) ;
+        color:rgb(216, 11, 11) ;
+    }
+
+.boton-crear
+    {
+        border-radius: 12px;
+        background-color: #90ee90;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+.boton-crear:hover
+    {
+        background-color: #77e577;
+    }
+
+    /*Para la tabla*/
+table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+    }
+th {
+        background-color: #ffdf96;
+    }
+    
+td,th
+    {
+        border: 3px, solid, #ffd064;
+        padding: 8px;
+    }
+td
+    {
+        background-color: #ffd87f;
+    }
+
+ 
